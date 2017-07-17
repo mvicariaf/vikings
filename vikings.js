@@ -32,9 +32,8 @@ var vikingName = function (){
   var index = randomNumber(0,16);
   return names[index];
 };
-function army(){
+function army(vikingFighters){
   var vikingsArmy=[];
-  vikingFighters;
   for (var i=0; i<vikingFighters; i++){
     vikingsArmy[i]=new Vikings();
   
